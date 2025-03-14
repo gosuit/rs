@@ -1,6 +1,6 @@
 # RS
 
-rs is a simple and convenient wrapper around the <a href="github.com/redis/go-redis/v9">go-redis</a>, providing an easy way to connect to a Redis server in your Go applications. This library abstracts the connection setup and allows you to focus on using Redis without dealing with boilerplate code.
+rs is a simple and convenient wrapper around the <a href="https://github.com/redis/go-redis">go-redis</a>, providing an easy way to connect to a Redis server in your Go applications. This library abstracts the connection setup and allows you to focus on using Redis without dealing with boilerplate code.
 
 ## Installation
 
