@@ -12,7 +12,7 @@ type Config struct {
 	Host     string `confy:"host" yaml:"host" json:"host" toml:"host" env:"REDIS_HOST"      env-default:"localhost"`
 	Port     int    `confy:"port" yaml:"port" json:"port" toml:"port" env:"REDIS_PORT"      env-default:"6379"`
 	DBNumber int    `confy:"db"   yaml:"db"   json:"db"   toml:"db"   env:"REDIS_DB_NUMBER" env-default:"0"`
-	Password string `env:"REDIS_PASSWORD"`
+	Password string `confy:"password" env:"REDIS_PASSWORD"`
 }
 
 func getConfig(cfg *Config) *redis.Options {
